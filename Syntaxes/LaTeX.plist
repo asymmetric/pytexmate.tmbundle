@@ -688,7 +688,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(?:\s*)((\\)begin)(\{)(itemize|enumerate|description|list)(\})</string>
+			<string>(?:\s*)((\\)begin)(\{)(itemize(\*)?|enumerate(\*)?|description(\*)?|list)(\})</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
